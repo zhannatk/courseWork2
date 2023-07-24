@@ -1,0 +1,25 @@
+###
+http://localhost:8080/java/add?question=&answer=QuestionAnswer
+###
+http://localhost:8080/java/add?question=QuestionText2&answer=
+####
+http://localhost:8080/java/add?answer=QuestionAnswer
+###
+http://localhost:8080/java/add?question=QuestionText2&answer=QuestionAnswer
+### вопрос и ответ одинаковы
+http://localhost:8080/java/add?question=SAMETEXT&answer=SAMETEXT
+###
+http://localhost:8080/java/add?question=QuestionText3&answer=QuestionAnswer3
+###
+http://localhost:8080/java/add?question=QuestionText&answer=QuestionAnswer4
+###
+http://localhost:8080/java/add?question=QuestionText&answer=QuestionAnswer5
+###
+http://localhost:8080/java/add?question=QuestionText&answer=QuestionAnswer1
+###
+http://localhost:8080/java/remove?question=QuestionText&answer=QuestionAnswer1
+###
+http://localhost:8080/java
+###
+http://localhost:8080/exam/get2
+###
